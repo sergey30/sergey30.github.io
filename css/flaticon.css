@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon/Flaticon.eot");
+  src: url("../fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/Flaticon.woff") format("woff"),
+       url("../fonts/flaticon/Flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.flaticon-gearshift:before { content: "\f100"; }
+.flaticon-gas-station-1:before { content: "\f101"; }
+.flaticon-speedometer-1:before { content: "\f102"; }
+.flaticon-pistons:before { content: "\f103"; }
+.flaticon-truck:before { content: "\f104"; }
+.flaticon-car-repair:before { content: "\f105"; }
+.flaticon-hubcap:before { content: "\f106"; }
+.flaticon-cogwheels:before { content: "\f107"; }
+.flaticon-battery:before { content: "\f108"; }
+.flaticon-speedometer:before { content: "\f109"; }
+.flaticon-trunk:before { content: "\f10a"; }
+.flaticon-gas-station:before { content: "\f10b"; }
+.flaticon-seat:before { content: "\f10c"; }
+.flaticon-repair-tool:before { content: "\f10d"; }
+.flaticon-ventilator:before { content: "\f10e"; }
+.flaticon-square:before { content: "\f10f"; }
+.flaticon-geolocalization:before { content: "\f110"; }
